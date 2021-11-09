@@ -5,8 +5,10 @@
 int main () {
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	
-	char produto1[18], produto2[18], produto3[18], produto4[18], produto5[18], produto6[18], produto7[18], produto8[18];
-	float valor_p1, valor_p2, valor_p3, valor_p4, valor_p5, valor_p6, valor_p7, valor_p8;
+	char produto1[18], produto2[18], produto3[18], produto4[18];
+	char produto5[18], produto6[18], produto7[18], produto8[18];
+	float valor_p1, valor_p2, valor_p3, valor_p4;
+	float valor_p5, valor_p6, valor_p7, valor_p8;
 	int qtd_p1, qtd_p2, qtd_p3, qtd_p4, qtd_p5, qtd_p6, qtd_p7, qtd_p8;
 	int codigo1 = 171, codigo2 = 172, codigo3 = 173, codigo4 = 174;
 	int codigo5 = 175, codigo6 = 176, codigo7 = 177, codigo8 = 178;
@@ -22,7 +24,7 @@ int main () {
 	scanf("%d", &qtd_p1);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto2);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p2);
@@ -30,7 +32,7 @@ int main () {
 	scanf("%d", &qtd_p2);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto3);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p3);
@@ -38,7 +40,7 @@ int main () {
 	scanf("%d", &qtd_p3);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto4);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p4);
@@ -46,7 +48,7 @@ int main () {
 	scanf("%d", &qtd_p4);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto5);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p5);
@@ -54,7 +56,7 @@ int main () {
 	scanf("%d", &qtd_p5);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto6);
 	printf("Valor do Produto: ");
 	scanf("%f" , &valor_p6);
@@ -62,7 +64,7 @@ int main () {
 	scanf("%d", &qtd_p6);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto7);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p7);
@@ -70,7 +72,7 @@ int main () {
 	scanf("%d", &qtd_p7);
 	fflush(stdin);
 	
-	printf("Produto: ");
+	printf("\nProduto: ");
 	gets(produto8);
 	printf("Valor do Produto: ");
 	scanf("%f", &valor_p8);
